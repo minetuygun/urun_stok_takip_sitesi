@@ -1,0 +1,179 @@
+*{
+
+
+    box-sizing: border-box;
+    
+    
+    }
+    body{
+        font-family: 'Nunito', sans-serif;
+    margin:0;
+    
+    }
+    #menu{
+    height: 80px;
+    padding: 0 20px;
+    
+    
+    }
+    #logo{
+    
+    font-size: 30px;
+    line-height: 80px;
+    color:indigo;
+    float:left;
+    }
+    nav{
+    
+    float:right;
+    line-height:80px;
+    
+    
+    }
+    nav a:link{
+    text-decoration: none;
+    
+    margin-right: 25px;
+    color:indigo;
+    }
+    nav a:hover{
+    
+    border-bottom: 2px solid indigo;
+    
+    
+    }
+    nav a:visited{
+    
+        text-decoration: none;
+    
+        margin-right: 25px;
+        color:indigo;
+    
+    
+    }
+    .ikon{
+    
+    margin-right: 7px;
+    font-size: 16px;
+    
+    }
+    #anasayfa{
+    
+    
+    height: 600px;
+    background-image: url("../image/yeni.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+    #black{
+    
+    height:600px;
+    background-color: black;
+    
+    opacity: 0.5;
+    
+    
+    }
+    #icerik{
+    
+    position: absolute;
+    
+    top:50%;
+    left:40%;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-size:20px;
+    
+    }
+    #hakkimizda{
+    
+    background-color:white;
+    padding:50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    
+    }
+    h3{
+font-size: 55px;
+color:#003666;
+
+font-weight: 600;
+
+
+
+    }
+    #container{
+
+width:1200px;
+height:auto;
+margin:auto;
+
+
+
+    }
+    #sol{
+
+float:left;
+border-right:3px solid #445c6e;
+font-size:30px;
+width:400px;
+color:black;
+
+
+    }
+    #h5sol{
+
+line-height: 1.6;
+font-size:30px;
+font-weight:600;
+
+
+
+    }
+    #h5sol, #sag{
+margin:0;
+padding:0;
+margin-top:20px;
+
+
+
+
+
+    }
+    #sag{
+
+float:right;
+width:750px;
+color:black;
+text-align: center;
+letter-spacing: 1px;
+font-size:15px;
+line-height:1.8;
+
+
+    }
+    .img-fluid{
+max-width:100%;
+height:auto;
+
+
+
+
+    }
+    .mt100{
+
+margin-top:100px;
+
+
+    }
+    #pson{
+color:black;
+letter-spacing: 1px;
+font-size:15px;
+line-height:1.8;
+margin-top:30px;
+
+
+    }
